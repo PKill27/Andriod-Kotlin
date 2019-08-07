@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/radius"/>
+
+    <Button
+            android:id="@+id/btnShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update"
+    android:layout_below="@id/editText">
+    </Button>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnShow"
+        android:text="@string/radius_of"
+        android:id="@+id/radView"/>
+
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recicler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnShow"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/returnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="30dp"
+            android:src="@drawable/baseline_map_black_18dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:rotation="0" />
+</RelativeLayout>

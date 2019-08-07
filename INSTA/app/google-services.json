@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "485163165964",
+    "firebase_url": "https://insta3-ffbf8.firebaseio.com",
+    "project_id": "insta3-ffbf8",
+    "storage_bucket": "insta3-ffbf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485163165964:android:ca762c0a98faabd8",
+        "android_client_info": {
+          "package_name": "com.example.porterkillian.insta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfphxSGjom7Gl68TBoCawACQKk4nUWySA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485163165964-3lcbtef01q04h30rka2262fkhqpf4seh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

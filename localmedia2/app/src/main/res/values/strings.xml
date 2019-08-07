@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Local Media</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="picture">Take picture</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_photo_view">PhotoViewActivity</string>
+    <string name="radius">enter radius</string>
+    <string name="update">update search size</string>
+    <string name="radius_of">radius of</string>
+
+</resources>

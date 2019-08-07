@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent">
+    <EditText android:layout_width="match_parent" android:layout_height="50dp"
+              android:id="@+id/caption"
+    android:text="caption here"/>
+    <RelativeLayout android:layout_width="match_parent"
+                    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content"
+                    android:layout_below="@+id/caption" android:id="@+id/cam">
+    <ImageView
+
+            android:id="@+id/your_image"
+            android:tag="@string/app_name"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/camera"
+            xmlns:android="http://schemas.android.com/apk/res/android"/>
+        <Button android:layout_width="match_parent" android:layout_height="50dp"
+                android:layout_alignBottom="@+id/your_image"
+                android:text="@string/picture"
+                android:layout_marginTop="100dp"
+                android:id="@+id/camButton"/>
+    </RelativeLayout>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+              android:text=""
+              android:id="@+id/date"
+              android:visibility="invisible"
+             />
+    <Button android:layout_width="200dp" android:layout_height="50dp"
+            android:layout_below="@+id/cam"
+            android:text="@string/cancel"
+            android:layout_marginTop="100dp"
+            android:id="@+id/cancel_button"/>
+
+    <Button android:layout_width="200dp" android:layout_height="50dp"
+            android:layout_below="@+id/cam"
+            android:text="@string/save"
+            android:layout_toRightOf="@+id/cancel_button"
+            android:layout_marginTop="100dp"
+            android:id="@+id/save_button"/>
+
+
+</RelativeLayout>
+
+
+
+

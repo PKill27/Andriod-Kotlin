@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+                xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="500dp" android:layout_height="400dp"
+                    android:layout_centerHorizontal="true" android:layout_marginTop="50dp"
+                    android:id="@+id/rel_layout">
+        <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:scaleType="fitCenter"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/camera"
+                xmlns:android="http://schemas.android.com/apk/res/android"/>
+        <Button android:layout_width="60dp" android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+                android:text="X"
+            android:id="@+id/delete_button"/>
+    </RelativeLayout>
+
+    <TextView
+            android:id="@+id/date_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel_layout"
+            android:textSize="20sp" xmlns:android="http://schemas.android.com/apk/res/android"
+            android:text="date here"/>
+
+    <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_view"
+            android:textSize="20sp" xmlns:android="http://schemas.android.com/apk/res/android"
+            android:text="caption here"/>
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "875799968512",
+    "firebase_url": "https://local-media-2.firebaseio.com",
+    "project_id": "local-media-2",
+    "storage_bucket": "local-media-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875799968512:android:8508b56db50aa085",
+        "android_client_info": {
+          "package_name": "com.example.porterkillian.localmedia2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875799968512-n4bkc8vma4l0rio36ijqp4911rtdld9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi8iEsNA_Vr95tdpS28fuejKGUNj3S7qE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875799968512-n4bkc8vma4l0rio36ijqp4911rtdld9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

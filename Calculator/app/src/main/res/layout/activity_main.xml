@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="4"
+            android:rowCount="5">
+    <TextView
+        android:text ="answer"
+        android:id="@+id/answer"
+        android:layout_row="0" android:layout_column="1"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "@string/one"
+            android:id="@+id/numberButtonOne"
+            android:layout_row="1" android:layout_column="0"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two"
+            android:id="@+id/numberButtonTwo"
+            android:layout_row="1" android:layout_column="1"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three"
+            android:id="@+id/numberButtonThree"
+            android:layout_row="1" android:layout_column="2"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plus"
+            android:id="@+id/plusButton"
+            android:layout_row="1" android:layout_column="3"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four"
+            android:id="@+id/numberButtonFour"
+            android:layout_row="2" android:layout_column="0"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/five"
+            android:id="@+id/numberButtonFive"
+            android:layout_row="2" android:layout_column="1"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six"
+            android:id="@+id/numberButtonSix"
+            android:layout_row="2" android:layout_column="2"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:id="@+id/minusButton"
+            android:layout_row="2" android:layout_column="3"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seven"
+            android:id="@+id/numberButtonSeven"
+            android:layout_row="3" android:layout_column="0"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eight"
+            android:id="@+id/numberButtonEight"
+            android:layout_row="3" android:layout_column="1"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nine"
+            android:id="@+id/numberButtonNine"
+            android:layout_row="3" android:layout_column="2"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/equals"
+            android:id="@+id/EqualsButton"
+            android:layout_row="3" android:layout_column="3"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero"
+            android:id="@+id/numberButtonZero"
+            android:layout_row="4" android:layout_column="1"/>
+</GridLayout>
+
+
